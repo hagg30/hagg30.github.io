@@ -4,7 +4,6 @@ summary: "Generative model-based anomaly detection for industrial applications."
 date: 2020-03-01
 tags: ["Generative Model", "Anomaly Detection", "Industry"]
 featured: false
-external_link: "https://www.ku.ac.ae/c2ps"
 image:
   filename: KUSTAR_Logo.png
   focal_point: Center
@@ -14,3 +13,5 @@ image_gallery:
 
 Researched generative model-based anomaly detection methods for critical industrial infrastructure.  
 Focused on enhancing safety and reliability in cyber-physical systems at KU-CPS.
+
+[Read More](https://www.ku.ac.ae/c2ps)

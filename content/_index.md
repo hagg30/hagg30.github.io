@@ -30,18 +30,21 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
+- block: markdown
     content:
-      title: '📚 My Research'
+      title: '🚀 Research & Projects'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am an AI researcher focusing on **Anomaly Detection**, **XR Simulation**, and **Generative AI for Content Creation**.  
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        My work aims to build robust systems that detect abnormal events in complex environments, such as autonomous driving scenarios and industrial applications. I also explore XR-based training platforms and develop generative models to create interactive content for virtual simulations and educational tools.  
+
+        I am passionate about applying AI to real-world challenges by combining multimodal data, immersive technologies, and creative automation.  
+
+        Feel free to reach out for collaborations! 🤝
     design:
       columns: '1'
+
   
   - block: collection
     content:
