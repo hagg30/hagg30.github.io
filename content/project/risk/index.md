@@ -4,7 +4,6 @@ summary: "Development of an explainable anomaly detection framework for road env
 date: 2024-02-29
 tags: ["PhD Thesis", "XAI", "Anomaly Detection", "Computer Vision"]
 featured: true
-external_link: "https://library.kaist.ac.kr/" # 논문 링크나 PDF 링크 넣으면 좋아요.
 image:
   filename: road_hazard_main.png
   focal_point: Center
