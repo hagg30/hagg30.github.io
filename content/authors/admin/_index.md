@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Dongkun Lee
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Dong-kun Lee
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Dongkun
+last_name: Lee
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🚀
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,167 +20,113 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: AI Researcher | XR Simulation | Explainable AI | Multimodal Learning
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: KAIST
+    url: https://kaist.ac.kr/
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:hagg30@kaist.ac.kr'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/hagg30
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://linkedin.com/in/동건-이-5667b223b
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+  - icon: brands/stackoverflow
+    url: https://stackoverflow.com/users/3614711/pflower
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Explainable Artificial Intelligence (XAI)
+  - XR Simulation
+  - Multimodal Learning
+  - Generative AI
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD in Computer Science
+    institution: KAIST
+    date_start: 2019-03-01
+    date_end: 
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Research in Explainable AI applied to security, energy, and education. Led projects such as XR counter-terrorism training and smart energy anomaly detection.
+  - area: MEng in Computer Science
+    institution: KAIST
+    date_start: 2016-03-01
+    date_end: 2019-02-28
     summary: |
-      GPA: 3.8/4.0
+      Developed deep learning-based Korean language models for semantic understanding and similarity computation.
+  - area: BE in Computer Science
+    institution: Kyungpook National University
+    date_start: 2012-03-01
+    date_end: 2016-02-28
+    summary: |
+      Specialized in graphics and game development, with a graduation thesis focusing on integrating advanced graphics into game design.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - position: Project Lead Student
+    company_name: AILA (AI Language Assistant)
+    company_url: https://press.todayan.com/newsRead.php?no=945769
+    date_start: 2021-06-01
+    date_end: 2022-05-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Led the development of a 3D avatar-based non-contact English learning platform integrating Unity and chatbot technologies.
+  - position: Researcher
+    company_name: XR Counter-Terrorism Simulation
+    company_url: https://www.dt.co.kr/contents.html?article_no=2021072802109923645006
+    date_start: 2021-04-01
+    date_end: 2024-02-29
+    summary: |
+      Developed AI-driven virtual environments and manual-based scenario generation for police training.
+  - position: Visiting Researcher
+    company_name: KU-Center for Cyber-Physical Systems
+    company_url: https://www.ku.ac.ae/c2ps
+    date_start: 2020-03-01
+    date_end: 2020-05-31
+    summary: |
+      Focused on anomaly detection for industrial images using generative models in safety-critical systems.
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming
     items:
       - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+        percent: 98
+      - name: Unity (C#)
+        percent: 95
+      - name: C/C++
+        percent: 95
+      - name: Java
+        percent: 90
+  - name: Tools
     items:
-      - name: Hiking
-        description: ''
+      - name: Photoshop
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
 
 languages:
-  - name: English
+  - name: Korean
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: English
+    percent: 90
+  - name: Japanese
+    percent: 50
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: Best Paper Award
+    date: '2023-06-01'
+    awarder: IEEE ICRA
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      Awarded for "Road anomaly segmentation based on pixel-wise logit variance with iterative background highlighting."
+  - title: XR Innovation Award
+    date: '2022-11-01'
+    awarder: Korean National Police Agency
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Recognized for outstanding contributions to the development of XR-based counter-terrorism training systems.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a researcher at KAIST focusing on Explainable AI, XR simulations, and multimodal learning systems. His work bridges real-world applications in security, education, and smart energy, advancing robust and interpretable AI solutions.
