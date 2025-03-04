@@ -12,9 +12,6 @@ last_name: Lee
 avatar:
   filename: avatar.jpg
 
-# Status emoji
-status:
-  icon: 🚀
 
 # Is this the primary user of the site?
 superuser: true
