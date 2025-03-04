@@ -115,16 +115,7 @@ languages:
     percent: 50
 
 awards:
-  - title: Best Paper Award
-    date: '2023-06-01'
-    awarder: IEEE ICRA
-    summary: |
-      Awarded for "Road anomaly segmentation based on pixel-wise logit variance with iterative background highlighting."
-  - title: XR Innovation Award
-    date: '2022-11-01'
-    awarder: Korean National Police Agency
-    summary: |
-      Recognized for outstanding contributions to the development of XR-based counter-terrorism training systems.
+
 ---
 
 ## About Me
