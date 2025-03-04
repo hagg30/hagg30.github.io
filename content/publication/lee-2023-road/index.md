@@ -1,4 +1,6 @@
 ---
+featured: true
+
 title: Road Anomaly Segmentation Based on Pixel-wise Logit Variance with Iterative
   Background Highlighting
 authors:

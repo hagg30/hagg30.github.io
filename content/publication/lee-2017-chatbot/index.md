@@ -1,7 +1,9 @@
 ---
+featured: true
+
 title: The chatbot feels you-a counseling service using emotional response generation
 authors:
-- Dongkeon Lee
+- Dongkun Lee
 - Kyo-Joong Oh
 - Ho-Jin Choi
 date: '2017-01-01'
