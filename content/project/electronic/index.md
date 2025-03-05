@@ -4,6 +4,7 @@ summary: "Explainable AI-based system for detecting and explaining anomalies in 
 date: 2019-01-01
 tags: ["XAI", "Energy", "Anomaly Detection"]
 featured: false
+external_link: 
 image:
   filename: kepco-1.png
   focal_point: Center

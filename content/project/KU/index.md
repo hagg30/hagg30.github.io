@@ -4,6 +4,7 @@ summary: "Generative model-based anomaly detection for industrial applications."
 date: 2020-03-01
 tags: ["Generative Model", "Anomaly Detection", "Industry"]
 featured: false
+external_link: 
 image:
   filename: KUSTAR_Logo.png
   focal_point: Center
