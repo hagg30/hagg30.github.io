@@ -4,7 +4,8 @@ summary: "Development of an AI-powered XR-based counter-terrorism training simul
 date: 2021-04-01
 tags: ["XR", "Simulation", "AI"]
 featured: true
-external_link: 
+external_link: "https://www.dt.co.kr/contents.html?article_no=2021072802109923645006"
+
 image:
   filename: police.jpg
   focal_point: Center

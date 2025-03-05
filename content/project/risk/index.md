@@ -4,7 +4,7 @@ summary: "Development of an explainable anomaly detection framework for road env
 date: 2024-02-29
 tags: ["PhD Thesis", "XAI", "Anomaly Detection", "Computer Vision"]
 featured: true
-external_link: 
+
 image:
   filename: road_hazard_main.png
   focal_point: Center
