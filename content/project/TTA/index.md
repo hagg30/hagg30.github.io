@@ -9,17 +9,21 @@ weight: 1
 image:
   filename: 1.png
   focal_point: Center
-image_gallery:
-  - filename: output.png
-  - filename: tta.png
 ---
+
+## 📸 Gallery
+
+![ ](output.png)  
+![ ](tta.gif)
+
+
 
 Collaborated with Seoul City University, and industry partners to build a large-scale benchmark dataset for AI safety evaluation.  
 This dataset covers **35 categories of AI-related risks** with **11,480 multimodal instances** (text, image, video, audio).  
 
 Our lab contributed to the development of **risk data for image and video modalities**, ensuring high-quality, ethically curated datasets for generative AI safety evaluation.
 
-## 🏷️ Lab Contribution
+## 🏷️ Contribution
 
 - **Image Data**: 860 instances  
 - **Video Data**: 310 instances  

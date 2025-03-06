@@ -8,8 +8,6 @@ weight: 2
 image:
   filename: AILA.png
   focal_point: Center
-image_gallery:
-  - filename: AILA-2.png
 ---
 
 

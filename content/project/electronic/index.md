@@ -8,9 +8,6 @@ weight: 1
 image:
   filename: kepco-2.png
   focal_point: Center
-image_gallery:
-  - filename: kepco-3.png
-  - filename: kepco-1.png
 
 ---
 

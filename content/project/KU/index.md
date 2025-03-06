@@ -8,8 +8,6 @@ weight: 2
 image:
   filename: KU.png
   focal_point: Center
-image_gallery:
-  - filename: KUSTAR_Logo.jpg
 ---
 
 ## 📸 Gallery
