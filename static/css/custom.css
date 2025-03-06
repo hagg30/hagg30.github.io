@@ -1,0 +1,88 @@
+/* 1) 구글 폰트 불러오기 ----------------------------------- */
+/* Noto Sans KR (가독성 높은 한글 + 영문 조합용)              */
+/* *만약 다른 폰트를 쓰고 싶다면, 이 부분 변경하면 됩니다.    */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+/* 2) 전역 스타일(Reset 및 기초 설정) ------------------------ */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9; /* 밝은 회색 톤 배경 */
+    color: #333333;           /* 본문 텍스트 색상: 진한 회색 */
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;          /* 기본 글자 크기 */
+    line-height: 1.6;         /* 줄간격(가독성 확보) */
+}
+
+/* 3) 레이아웃(폭 제한) ------------------------------------- */
+/* 사이트 내 대표 컨테이너를 중앙 정렬, 적당한 폭으로 제한 */
+.container {
+    max-width: 800px;  /* 본문 너비 최대 800px 권장 */
+    margin: 0 auto;
+    padding: 20px;     /* 좌우여백, 상하여백 */
+}
+
+/* 4) 헤더, 푸터 -------------------------------------------- */
+/* 헤더나 푸터를 최소한으로 간결하게. 필요 시 조정 가능 */
+header, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+/* 5) 제목(Heading) 스타일 ----------------------------------- */
+/* 여백과 가독성을 고려한 기본 헤딩 스타일 */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 1.5em 0 0.8em;  /* 제목 전후로 충분한 여백 */
+    color: #111111;         /* 본문보다 조금 더 진하게 */
+}
+
+/* 6) 본문 텍스트(Paragraph 등) ----------------------------- */
+/* 기본 p 태그 외 ul, ol 등은 기본 스타일 사용 */
+p {
+    margin: 1em 0;
+}
+
+/* 7) 링크(Anchor) 스타일 ----------------------------------- */
+a {
+    color: #007ACC;             /* 톤 다운된 블루 (포인트 컬러) */
+    text-decoration: none;      /* 밑줄 제거 */
+}
+
+a:hover {
+    color: #005999;             /* hover 시 조금 더 진한 블루 */
+    text-decoration: underline; /* hover 시 밑줄 */
+}
+
+/* 8) 버튼(Button) 스타일 ----------------------------------- */
+button, .btn {
+    background-color: #007ACC;  /* 포인트 컬러 */
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #005999;
+}
+
+/* 9) 이미지, 아이콘 등 -------------------------------------- */
+/* 필요 시, 이미지나 아이콘에 대한 간단한 스타일 (예시) */
+img {
+    max-width: 100%;           /* 반응형을 위해 부모 폭 기준 */
+    height: auto;              /* 비율 유지 */
+}
+
+/* 10) 추가로 강조 스타일(하이라이트) ------------------------- */
+/* 연구 결과나 강조해야 할 문구에 클래스를 주면 활용 가능 */
+.highlight {
+    background-color: #FFF7CC;  /* 연한 노란색 배경으로 강조 */
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
