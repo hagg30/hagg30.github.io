@@ -11,10 +11,8 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -23,7 +21,6 @@ sections:
       background:
         color: black
         image:
-          # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
             brightness: 1.0
@@ -54,6 +51,7 @@ sections:
         folders:
           - publication
         exclude_featured: false
+
   - block: collection
     content:
       title: Selected Projects
@@ -63,8 +61,21 @@ sections:
           - project
         exclude_featured: false
     design:
-      view: citation
+      view: article-grid
+      columns: 2
+
+  - block: collection
+    content:
+      title: Experience
+      text: ""
+      filters:
+        folders:
+          - experience
+        exclude_featured: false
+    design:
+      view: timeline
       card:
-        css_class: "bg-primary-700"
+        css_class: "bg-primary-100"
         css_style: ""
+
 ---
