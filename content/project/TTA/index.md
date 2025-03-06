@@ -4,6 +4,7 @@ summary: "Development of a multimodal benchmark dataset for evaluating safety ri
 date: 2024-12-30
 tags: ["AI Safety", "Multimodal", "Benchmark"]
 featured: true
+weight: 1
 
 image:
   filename: 1.png

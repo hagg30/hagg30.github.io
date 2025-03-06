@@ -4,7 +4,7 @@ summary: "Development of an AI-powered XR-based counter-terrorism training simul
 date: 2021-04-01
 tags: ["XR", "Simulation", "AI"]
 featured: true
-
+weight: 1
 image:
   filename: model_police.png
   focal_point: Center

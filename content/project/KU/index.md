@@ -4,6 +4,7 @@ summary: "Generative model-based anomaly detection for industrial applications."
 date: 2020-03-01
 tags: ["Generative Model", "Anomaly Detection", "Industry"]
 featured: false
+weight: 2
 image:
   filename: KU.png
   focal_point: Center
