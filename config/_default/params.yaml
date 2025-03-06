@@ -6,13 +6,6 @@
 custom_css:
    - css/custom.css
 
-style:
-  primary: "#C5A253"  # Forbes Gold
-  link: "#C5A253"
-  background: "#FFFFFF"
-  home_section_odd: "#FFFFFF"
-  home_section_even: "#F5F5F5"
-
 # Appearance
 appearance:
   mode: system

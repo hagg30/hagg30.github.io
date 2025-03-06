@@ -1,108 +1,104 @@
 ---
 title: "Dongkun Lee | AI Researcher in XR & Explainable AI"
-date: 2022-10-24
+date: 2023-03-08
 type: landing
 
 design:
   spacing: "4rem"
-  css_class: forbes-style
+  css_class: "container"
 
 sections:
-  - block: resume-biography-3
+  - block: markdown
     content:
-      username: admin
+      title: ""
       text: |
-        👋 Hi, I'm **Dongkun Lee**  
-        AI Researcher passionate about **Explainable AI**, **XR Simulation**, and **Multimodal Learning**.  
-        I build intelligent systems that make the complex world understandable.
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+        <div class="naver-hero">
+          <img src="uploads/dongkun_photo.jpg" alt="Dongkun Lee Photo" style="width:120px;border-radius:50%;margin-bottom:1rem;">
+          <h2>👋 Hi, I'm <span style="color:#03C75A;">Dongkun Lee</span></h2>
+          <p>AI Researcher passionate about <strong>Explainable AI</strong>, <strong>XR Simulation</strong>, and <strong>Multimodal Learning</strong>.<br>
+          I build intelligent systems that make the complex world understandable.</p>
+          <p>
+            <a class="btn" href="uploads/resume.pdf" target="_blank">Download CV</a>
+          </p>
+        </div>
     design:
-      css_class: forbes-hero
-      background:
-        color: white
+      columns: '1'
 
   - block: markdown
     content:
       title: "🚀 Impact Metrics"
       text: |
-        - 📄 **Publications**: *20+ peer-reviewed papers*
-        - 📑 **Total Citations**: *500+*
-        - 🏆 **Projects**: *6+ AI-driven projects*
+        - **Publications**: *20+ peer-reviewed papers*  
+        - **Total Citations**: *500+*  
+        - **Projects**: *6+ AI-driven projects*
     design:
-      columns: '1'
-      css_class: forbes-section
+      css_class: "naver-section"
 
   - block: markdown
     content:
-      title: '📚 Research & Projects'
-      text: |-
-        I specialize in building **intelligent systems** for detecting anomalies, enhancing XR simulations, and generating creative content through AI.  
+      title: "📚 Research & Projects"
+      text: |
+        I specialize in building **intelligent systems** for detecting anomalies,
+        enhancing XR simulations, and generating creative content through AI.
 
-        My research bridges **AI, immersive environments, and generative models** to tackle real-world challenges in autonomous driving, industrial safety, and education.  
+        My research bridges **AI, immersive environments, and generative models** to tackle
+        real-world challenges in autonomous driving, industrial safety, and education.
 
         Let's create meaningful, innovative solutions together! 🤝
     design:
-      columns: '1'
-      css_class: forbes-section
+      css_class: "naver-section"
 
   - block: collection
     content:
-      title: Recent Publications
+      title: "Recent Publications"
       filters:
         folders:
           - publication
-        exclude_featured: false
-    design:
-      view: citation
-      css_class: forbes-collection
+      design:
+        view: citation
+        css_class: "naver-section"
 
   - block: collection
     content:
-      title: Selected Projects
+      title: "Selected Projects"
       filters:
         folders:
           - project
-        exclude_featured: false
-    design:
-      view: article-grid
-      columns: 2
-      css_class: forbes-collection
+      design:
+        view: article-grid
+        columns: 2
+        css_class: "naver-section"
 
   - block: resume-experience
     content:
-      title: Experience
+      title: "Experience"
       username: admin
     design:
-      date_format: 'January 2006'
-      is_education_first: false
-      css_class: forbes-section
+      css_class: "naver-section"
 
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: "Skills & Hobbies"
       username: admin
     design:
-      show_skill_percentage: false
-      css_class: forbes-section
+      css_class: "naver-section"
 
   - block: resume-languages
     content:
-      title: Languages
+      title: "Languages"
       username: admin
     design:
-      css_class: forbes-section
+      css_class: "naver-section"
 
   - block: markdown
     content:
       title: "🤝 Let's Collaborate!"
       text: |
-        Always open to exciting research collaborations, innovative projects, and consulting opportunities.  
+        Always open to exciting research collaborations, innovative projects, and consulting opportunities.
 
-        📬 [Reach me via email](mailto:hagg30@kaist.ac.kr)  
-        📄 [Download my full CV](/uploads/resume.pdf)
+        **Contact**: [hagg30@kaist.ac.kr](mailto:hagg30@kaist.ac.kr)  
+        **Full CV**: [Download PDF](uploads/resume.pdf)
     design:
-      columns: '1'
-      css_class: forbes-section
+      css_class: "naver-section"
 ---
+
