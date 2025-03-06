@@ -1,11 +1,11 @@
-/* 1) 구글 폰트 불러오기 (Noto Sans KR + Serif 추가) */
+/* Forbes Reset 스타일 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Playfair+Display:wght@700&display=swap');
 
-/* Forbes 스타일 컬러 */
 :root {
     --forbes-gold: #C5A253;
     --forbes-black: #111111;
     --forbes-white: #FFFFFF;
+    --forbes-gray: #F5F5F5;
 }
 
 html, body {
@@ -25,9 +25,9 @@ html, body {
 }
 
 header, footer {
-    max-width: 100%;
-    padding: 24px;
     background-color: var(--forbes-white);
+    color: var(--forbes-black);
+    padding: 24px;
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--forbes-black);
 }
 
-p {
+p, li {
     margin: 1em 0;
 }
 
@@ -48,7 +48,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: #a3843d;
+    color: #A3843D;
     text-decoration: underline;
 }
 
@@ -63,7 +63,7 @@ button, .btn {
     transition: background-color 0.2s ease;
 }
 button:hover, .btn:hover {
-    background-color: #a3843d;
+    background-color: #A3843D;
 }
 
 img {
@@ -71,54 +71,16 @@ img {
     height: auto;
 }
 
-.highlight {
-    background-color: #FFF7CC;
-    padding: 0.2em 0.4em;
-    border-radius: 3px;
-}
-
-pre, code {
-    font-family: 'Source Code Pro', monospace;
-    background-color: #f5f5f5;
-    color: #333333;
-}
-pre {
-    padding: 1em;
-    overflow-x: auto;
-    margin: 1em 0;
-    border-radius: 4px;
-}
-code {
-    padding: 0.2em 0.4em;
-    border-radius: 3px;
-}
-
-/* Forbes 스타일 섹션 */
-.forbes-style {
-    background-color: var(--forbes-white);
-}
-
 .forbes-hero {
-    background-color: #FFFFFF; /* 밝게 */
-    color: #111111; /* 진하게 */
-}
-
-.forbes-hero a {
-    color: #C5A253; /* 포인트 컬러 */
-}
-
-.forbes-hero a:hover {
-    color: #A3843D;
-}
-
-.forbes-hero button, .forbes-hero .btn {
-    background-color: #C5A253;
-    color: #FFFFFF;
-    border-radius: 6px;
+    background-color: var(--forbes-white);
+    color: var(--forbes-black);
+    padding: 60px 0;
+    text-align: center;
 }
 
 .forbes-section {
     padding: 48px 0;
+    background-color: var(--forbes-gray);
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -133,4 +95,3 @@ code {
 .forbes-collection article:hover {
     transform: translateY(-5px);
 }
-

@@ -1,5 +1,4 @@
 ---
-# Leave the homepage title empty to use the site title
 title: "Dongkun Lee | AI Researcher in XR & Explainable AI"
 date: 2022-10-24
 type: landing
@@ -23,13 +22,6 @@ sections:
       css_class: forbes-hero
       background:
         color: white
-        image:
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 0.9
-          size: cover
-          position: center
-          parallax: false
 
   - block: markdown
     content:
