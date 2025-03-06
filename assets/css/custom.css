@@ -1,9 +1,11 @@
 /* 링크, 버튼에 초록 포인트 */
+
+
 a {
-    color: #22c55e;
+    color: #000000;
   }
   a:hover {
-    color: #16a34a;
+    color: #000000;
   }
   
   /* 섹션 등장 애니메이션 */
@@ -17,13 +19,13 @@ a {
   
   /* 버튼 스타일 */
   .btn {
-    background-color: #22c55e;
+    background-color: #000000;
     color: #ffffff;
     padding: 0.5rem 1rem;
     border-radius: 8px;
     text-decoration: none;
   }
   .btn:hover {
-    background-color: #16a34a;
+    background-color: #000000;
   }
   
