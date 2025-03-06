@@ -4,7 +4,6 @@ summary: "A contactless English learning platform using AI-driven 3D avatars."
 date: 2021-06-01
 tags: ["AI", "Education", "Avatar"]
 featured: true
-external_link: 
 image:
   filename: AILA.png
   focal_point: Center
