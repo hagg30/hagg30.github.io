@@ -1,7 +1,7 @@
 ---
 title: "Smart Energy Anomaly Detection"
 summary: "Explainable AI-based system for detecting and explaining anomalies in power systems."
-date: 2019-01-01
+date: 2021-04-15
 tags: ["XAI", "Energy", "Anomaly Detection"]
 featured: true
 weight: 1

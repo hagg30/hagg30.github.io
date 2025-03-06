@@ -1,7 +1,7 @@
 ---
 title: "AILA - AI Language Assistant"
 summary: "A contactless English learning platform using AI-driven 3D avatars."
-date: 2021-06-01
+date: 2022-06-08
 tags: ["AI", "Education", "Avatar"]
 featured: true
 weight: 2

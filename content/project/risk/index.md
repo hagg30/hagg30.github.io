@@ -1,7 +1,7 @@
 ---
 title: "Explainable Road Hazard Detection via Pixel-wise Uncertainty Analysis"
 summary: "Development of an explainable anomaly detection framework for road environments using pixel-level uncertainty and risk mapping."
-date: 2024-02-29
+date: 2024-12-11
 tags: ["PhD Thesis", "XAI", "Anomaly Detection", "Computer Vision"]
 featured: true
 weight: 1
