@@ -34,24 +34,11 @@ sections:
     content:
       title: "🚀 Impact Metrics"
       text: |
-        - 📄 **Publications**: *20 peer-reviewed papers*
-        - 📑 **Total Citations**: *574*
-        - 🏆 **Projects**: *6 AI-driven projects*
+        - 📄 **Publications**: *20+ peer-reviewed papers*
+        - 📑 **Total Citations**: *500+*
+        - 🏆 **Projects**: *6+ AI-driven projects*
     design:
       columns: '1'
-
-  - block: cta-card
-    content:
-      title: "🕹️ Featured Project"
-      text: |
-        **XR Counter-Terrorism Simulation**  
-        AI-powered XR training platform for real-world police counter-terrorism.
-      button:
-        text: "View Project"
-        url: /project/xr-counter-terrorism
-    design:
-      card:
-        css_class: "bg-primary-700"
 
   - block: markdown
     content:
@@ -110,7 +97,7 @@ sections:
       text: |
         Always open to exciting research collaborations, innovative projects, and consulting opportunities.  
 
-        📬 [Reach me via email](mailto:babba82200@gmail.com)  
+        📬 [Reach me via email](mailto:hagg30@kaist.ac.kr)  
         📄 [Download my full CV](/uploads/resume.pdf)
     design:
       columns: '1'
