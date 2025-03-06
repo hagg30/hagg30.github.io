@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: "Dongkun Lee | AI Researcher in XR & Explainable AI"
 date: 2022-10-24
 type: landing
 
@@ -12,8 +12,9 @@ sections:
     content:
       username: admin
       text: |
-        👋 Hi, I'm Dongkun Lee  
-        AI Researcher specializing in **Explainable AI**, **XR Simulation**, and **Multimodal Learning**.
+        👋 Hi, I'm **Dongkun Lee**  
+        AI Researcher passionate about **Explainable AI**, **XR Simulation**, and **Multimodal Learning**.  
+        I build intelligent systems that make the complex world understandable.
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -33,10 +34,9 @@ sections:
     content:
       title: "🚀 Impact Metrics"
       text: |
-        - 📄 Publications: **10+**
-        - 📑 Total Citations: **2345**
-        - 🏆 Projects: **15+**
-        - 🎤 Talks: **8**
+        - 📄 **Publications**: *20 peer-reviewed papers*
+        - 📑 **Total Citations**: *574*
+        - 🏆 **Projects**: *6 AI-driven projects*
     design:
       columns: '1'
 
@@ -57,13 +57,11 @@ sections:
     content:
       title: '📚 Research & Projects'
       text: |-
-        I am an AI researcher focusing on **Anomaly Detection**, **XR Simulation**, and **Generative AI for Content Creation**.  
+        I specialize in building **intelligent systems** for detecting anomalies, enhancing XR simulations, and generating creative content through AI.  
 
-        My work aims to build robust systems that detect abnormal events in complex environments, such as autonomous driving scenarios and industrial applications. I also explore XR-based training platforms and develop generative models to create interactive content for virtual simulations and educational tools.  
+        My research bridges **AI, immersive environments, and generative models** to tackle real-world challenges in autonomous driving, industrial safety, and education.  
 
-        I am passionate about applying AI to real-world challenges by combining multimodal data, immersive technologies, and creative automation.  
-
-        Feel free to reach out for collaborations! 🤝
+        Let's create meaningful, innovative solutions together! 🤝
     design:
       columns: '1'
 
@@ -110,10 +108,10 @@ sections:
     content:
       title: "🤝 Let's Collaborate!"
       text: |
-        Open to research collaborations, innovative projects, and consulting opportunities.
+        Always open to exciting research collaborations, innovative projects, and consulting opportunities.  
 
-        📬 [Email Me](mailto:babba82200@gmail.com)  
-        📄 [Download CV](/uploads/resume.pdf)
+        📬 [Reach me via email](mailto:babba82200@gmail.com)  
+        📄 [Download my full CV](/uploads/resume.pdf)
     design:
       columns: '1'
 ---
