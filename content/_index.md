@@ -54,6 +54,14 @@ sections:
         folders:
           - publication
         exclude_featured: false
+  - block: collection
+    content:
+      title: Selected Projects
+      text: ""
+      filters:
+        folders:
+          - project
+        exclude_featured: false
     design:
       view: citation
       card:

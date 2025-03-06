@@ -5,7 +5,7 @@ date: 2020-03-01
 tags: ["Generative Model", "Anomaly Detection", "Industry"]
 featured: false
 image:
-  filename: KU.jpg
+  filename: KU.png
   focal_point: Center
 image_gallery:
   - filename: KUSTAR_Logo.jpg
