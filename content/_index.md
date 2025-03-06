@@ -23,7 +23,7 @@ sections:
       background:
         color: black
         image:
-          filename: stacked-peaks.svg
+          filename: endless-constellation_qHD.png
           filters:
             brightness: 1.0
           size: cover
