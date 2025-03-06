@@ -25,6 +25,7 @@ build:
   writeStats: true
 enableGitInfo: false
 summaryLength: 30
+paginate: 20
 pagination:
   pagerSize: 10
 enableEmoji: true
