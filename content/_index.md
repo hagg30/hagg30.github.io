@@ -77,5 +77,24 @@ sections:
       card:
         css_class: "bg-primary-100"
         css_style: ""
+  - block: resume-experience
+    content:
+      title: Experience
+      username: admin
+    design:
+      date_format: 'January 2006'
+      is_education_first: false
+
+  - block: resume-skills
+    content:
+      title: Skills & Hobbies
+      username: admin
+    design:
+      show_skill_percentage: false
+
+  - block: resume-languages
+    content:
+      title: Languages
+      username: admin
 
 ---
