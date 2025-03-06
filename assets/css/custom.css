@@ -99,8 +99,22 @@ code {
 }
 
 .forbes-hero {
-    background-color: var(--forbes-black);
-    color: var(--forbes-white);
+    background-color: #FFFFFF; /* 밝게 */
+    color: #111111; /* 진하게 */
+}
+
+.forbes-hero a {
+    color: #C5A253; /* 포인트 컬러 */
+}
+
+.forbes-hero a:hover {
+    color: #A3843D;
+}
+
+.forbes-hero button, .forbes-hero .btn {
+    background-color: #C5A253;
+    color: #FFFFFF;
+    border-radius: 6px;
 }
 
 .forbes-section {
@@ -119,3 +133,4 @@ code {
 .forbes-collection article:hover {
     transform: translateY(-5px);
 }
+
