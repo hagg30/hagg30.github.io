@@ -1,0 +1,4 @@
+[[main]]
+  name = "About"
+  identifier = "about"
+  weight = 10

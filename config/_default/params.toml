@@ -1,0 +1,6 @@
+[params.style]
+  primary = "#000000"
+  link = "#000000"
+  background = "#FFFFFF"
+  home_section_odd = "#FFFFFF"
+  home_section_even = "#F9F9F9"

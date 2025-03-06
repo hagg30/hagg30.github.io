@@ -1,0 +1,45 @@
+/* 전체 폰트 */
+body {
+    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #000000;
+    background-color: #FFFFFF;
+  }
+  
+  /* 컨테이너 폭 제한 */
+  .container, .article-container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  
+  /* 섹션 구분선과 여백 */
+  .section {
+    padding: 4rem 0;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+  /* 링크 색상 */
+  a {
+    color: #000000;
+    text-decoration: underline;
+  }
+  
+  /* 헤더 네비게이션 */
+  .navbar {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+  .navbar-item {
+    font-weight: 500;
+  }
+  
+  /* 푸터 심플하게 */
+  footer {
+    background-color: #FFFFFF;
+    color: #666666;
+    font-size: 0.9rem;
+    padding: 2rem 0;
+  }
+  
