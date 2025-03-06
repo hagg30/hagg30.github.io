@@ -10,4 +10,5 @@ publication_types:
 - paper-conference
 publication: '*2018 IEEE International Conference on Big Data and Smart Computing
   (BigComp)*'
+citation_count: 3
 ---

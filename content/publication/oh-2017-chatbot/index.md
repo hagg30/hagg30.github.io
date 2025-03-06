@@ -11,4 +11,5 @@ publishDate: '2025-03-04T06:03:49.115306Z'
 publication_types:
 - paper-conference
 publication: '*2017 18th IEEE international conference on mobile data management (MDM)*'
+citation_count: 357
 ---
