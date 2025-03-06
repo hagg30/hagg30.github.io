@@ -9,7 +9,7 @@ image:
   filename: 1.png
   focal_point: Center
 image_gallery:
-  - filename: output (1).png
+  - filename: output.png
   - filename: tta.png
 ---
 
