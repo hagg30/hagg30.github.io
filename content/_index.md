@@ -5,7 +5,8 @@ date: 2022-10-24
 type: landing
 
 design:
-  spacing: "6rem"
+  spacing: "4rem"
+  css_class: forbes-style
 
 sections:
   - block: resume-biography-3
@@ -19,13 +20,13 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      css_class: dark
+      css_class: forbes-hero
       background:
-        color: black
+        color: white
         image:
           filename: stacked-peaks.svg
           filters:
-            brightness: 1.0
+            brightness: 0.9
           size: cover
           position: center
           parallax: false
@@ -39,6 +40,7 @@ sections:
         - 🏆 **Projects**: *6+ AI-driven projects*
     design:
       columns: '1'
+      css_class: forbes-section
 
   - block: markdown
     content:
@@ -51,6 +53,7 @@ sections:
         Let's create meaningful, innovative solutions together! 🤝
     design:
       columns: '1'
+      css_class: forbes-section
 
   - block: collection
     content:
@@ -59,8 +62,9 @@ sections:
         folders:
           - publication
         exclude_featured: false
-      design:
-        view: citation
+    design:
+      view: citation
+      css_class: forbes-collection
 
   - block: collection
     content:
@@ -72,6 +76,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+      css_class: forbes-collection
 
   - block: resume-experience
     content:
@@ -80,6 +85,7 @@ sections:
     design:
       date_format: 'January 2006'
       is_education_first: false
+      css_class: forbes-section
 
   - block: resume-skills
     content:
@@ -87,11 +93,14 @@ sections:
       username: admin
     design:
       show_skill_percentage: false
+      css_class: forbes-section
 
   - block: resume-languages
     content:
       title: Languages
       username: admin
+    design:
+      css_class: forbes-section
 
   - block: markdown
     content:
@@ -103,4 +112,5 @@ sections:
         📄 [Download my full CV](/uploads/resume.pdf)
     design:
       columns: '1'
+      css_class: forbes-section
 ---
