@@ -8,10 +8,12 @@ featured: true
 image:
   filename: model_police.png
   focal_point: Center
-image_gallery:
-  - filename: police.png
-  - filename: overview.png
 ---
+
+## 📸 Gallery
+
+![ ](police.png)  
+![ ](overview.png)
 
 
 Collaborated with the Korean National Police Agency to develop an XR environment for virtual counter-terrorism training.  

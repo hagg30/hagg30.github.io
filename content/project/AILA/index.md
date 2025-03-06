@@ -11,6 +11,11 @@ image_gallery:
   - filename: AILA-2.png
 ---
 
+
+## 📸 Gallery
+
+![ ](AILA-2.png)  
+
 Led the development of a 3D avatar-based English conversation learning system.  
 Integrated Unity and chatbot technologies to provide personalized, non-contact language education.
 

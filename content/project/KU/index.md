@@ -11,6 +11,11 @@ image_gallery:
   - filename: KUSTAR_Logo.jpg
 ---
 
+## 📸 Gallery
+
+![ ](KUSTAR_Logo.jpg)  
+
+
 Researched generative model-based anomaly detection methods for critical industrial infrastructure.  
 Focused on enhancing safety and reliability in cyber-physical systems at KU-CPS.
 

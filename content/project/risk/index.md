@@ -7,13 +7,15 @@ featured: true
 image:
   filename: road_hazard_main.png
   focal_point: Center
-image_gallery:
-  - filename: thesis_model_architecture.jpg
-    caption: "Architecture of the proposed uncertainty-based road hazard detection framework."
-  - filename: thesis_results_demo.gif
-    caption: "Demo video showcasing real-world road hazard segmentation results."
 
 ---
+
+
+## 📸 Gallery
+
+![ ](thesis_model_architecture.png)  
+![ ](thesis_results_demo.gif)
+
 
 This project introduces an **explainable anomaly detection framework** for road environments, focusing on the safety of autonomous driving systems. By leveraging **pixel-wise logit variance** and **uncertainty estimation**, the system effectively identifies road hazards such as debris, potholes, and unexpected obstacles.
 
