@@ -1,1 +1,6 @@
-<link rel="stylesheet" href="{{ "/css/style.css" | absURL }}">
+<head>
+    {{ partial "head-meta.html" . }}  <!-- 테마에 따라 다를 수 있음 -->
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+  </head>
+  
