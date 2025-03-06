@@ -6,10 +6,10 @@ tags: ["XR", "Simulation", "AI"]
 featured: true
 
 image:
-  filename: police.jpg
+  filename: model_police.png
   focal_point: Center
 image_gallery:
-  - filename: model_police.png
+  - filename: police.png
   - filename: overview.png
 ---
 

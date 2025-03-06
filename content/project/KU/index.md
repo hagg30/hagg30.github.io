@@ -5,10 +5,10 @@ date: 2020-03-01
 tags: ["Generative Model", "Anomaly Detection", "Industry"]
 featured: false
 image:
-  filename: KUSTAR_Logo.jpg
+  filename: KU.jpg
   focal_point: Center
 image_gallery:
-  - filename: KU.jpg
+  - filename: KUSTAR_Logo.jpg
 ---
 
 Researched generative model-based anomaly detection methods for critical industrial infrastructure.  
