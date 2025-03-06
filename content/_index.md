@@ -5,14 +5,15 @@ date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
   spacing: "6rem"
 
 sections:
   - block: resume-biography-3
     content:
       username: admin
-      text: ""
+      text: |
+        👋 Hi, I'm Dongkun Lee  
+        AI Researcher specializing in **Explainable AI**, **XR Simulation**, and **Multimodal Learning**.
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -30,8 +31,31 @@ sections:
 
   - block: markdown
     content:
-      title: '🚀 Research & Projects'
-      subtitle: ''
+      title: "🚀 Impact Metrics"
+      text: |
+        - 📄 Publications: **10+**
+        - 📑 Total Citations: **2345**
+        - 🏆 Projects: **15+**
+        - 🎤 Talks: **8**
+    design:
+      columns: '1'
+
+  - block: cta-card
+    content:
+      title: "🕹️ Featured Project"
+      text: |
+        **XR Counter-Terrorism Simulation**  
+        AI-powered XR training platform for real-world police counter-terrorism.
+      button:
+        text: "View Project"
+        url: /project/xr-counter-terrorism
+    design:
+      card:
+        css_class: "bg-primary-700"
+
+  - block: markdown
+    content:
+      title: '📚 Research & Projects'
       text: |-
         I am an AI researcher focusing on **Anomaly Detection**, **XR Simulation**, and **Generative AI for Content Creation**.  
 
@@ -46,7 +70,6 @@ sections:
   - block: collection
     content:
       title: Recent Publications
-      text: ""
       filters:
         folders:
           - publication
@@ -55,7 +78,6 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: ""
       filters:
         folders:
           - project
@@ -64,19 +86,6 @@ sections:
       view: article-grid
       columns: 2
 
-  - block: collection
-    content:
-      title: Experience
-      text: ""
-      filters:
-        folders:
-          - experience
-        exclude_featured: false
-    design:
-      view: timeline
-      card:
-        css_class: "bg-primary-100"
-        css_style: ""
   - block: resume-experience
     content:
       title: Experience
@@ -97,4 +106,14 @@ sections:
       title: Languages
       username: admin
 
+  - block: markdown
+    content:
+      title: "🤝 Let's Collaborate!"
+      text: |
+        Open to research collaborations, innovative projects, and consulting opportunities.
+
+        📬 [Email Me](mailto:babba82200@gmail.com)  
+        📄 [Download CV](/uploads/resume.pdf)
+    design:
+      columns: '1'
 ---
