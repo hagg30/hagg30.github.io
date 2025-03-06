@@ -3,7 +3,13 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-
+style:
+  primary: "#000000"
+  link: "#000000"
+  background: "#FFFFFF"
+  home_section_odd: "#FFFFFF"
+  home_section_even: "#F9F9F9"
+  
 # Appearance
 appearance:
   mode: system
