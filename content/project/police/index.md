@@ -9,7 +9,8 @@ image:
   filename: police.jpg
   focal_point: Center
 image_gallery:
-  - filename: model_police.jpg
+  - filename: model_police.png
+  - filename: overview.png
 ---
 
 
