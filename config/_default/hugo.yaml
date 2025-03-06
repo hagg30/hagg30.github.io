@@ -8,6 +8,25 @@ title: Dongkun Lee
 # Website URL
 baseURL: 'https://dongkunlee.me/'
 
+
+# 스타일 커스텀 추가
+params:
+  theme:
+    palette:
+      primary: '#22c55e'  # 산뜻한 초록색
+      text: '#111827'
+      background: '#ffffff'
+  font:
+    heading: 'Inter'
+    body: 'Inter'
+
+  profile:
+    name: Dongkun Lee
+    role: Computer Vision Researcher
+    organization: My University
+    photo: 'images/profile.jpg'
+
+
 ############################
 ## LANGUAGE
 ############################
