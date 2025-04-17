@@ -107,7 +107,7 @@ sections:
       text: |
         Always open to exciting research collaborations, innovative projects, and consulting opportunities.
 
-        **Contact**: [hagg30@kaist.ac.kr](mailto:hagg30@kaist.ac.kr)  
+        **Contact**: [babba82200@gmail.com](mailto:babba82200@gmail.com)  
         **Full CV**: [Download PDF](uploads/resume.pdf)
     design:
       css_class: "naver-section"

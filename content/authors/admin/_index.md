@@ -29,7 +29,7 @@ organizations:
 # Social network links
 profiles:
   - icon: at-symbol
-    url: "mailto:hagg30@kaist.ac.kr"
+    url: "mailto:babba82200@gmail.com"
     label: "E-mail Me"
   - icon: brands/github
     url: "https://github.com/hagg30"
