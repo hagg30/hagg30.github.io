@@ -13,7 +13,7 @@ sections:
       title: ""
       text: |
         <div class="naver-hero">
-          <img src="uploads/dongkun_photo.jpg" alt="Dongkun Lee Photo" style="width:120px;border-radius:50%;margin-bottom:1rem;">
+          <img src="uploads/avatar.jpg" alt="Dongkun Lee Photo" style="width:120px;border-radius:50%;margin-bottom:1rem;">
           <h2>👋 Hi, I'm <span style="color:#9B5DE5;">Dongkun Lee</span></h2>
           <p>AI Researcher passionate about <strong>Explainable AI</strong>, <strong>XR Simulation</strong>, and <strong>Multimodal Learning</strong>.<br>
           I build intelligent systems that make the complex world understandable.</p>
