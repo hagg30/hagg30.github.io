@@ -22,7 +22,6 @@ sections:
           </p>
         </div>
     design:
-      columns: '1'
       css_class: dark
       background:
         color: black
