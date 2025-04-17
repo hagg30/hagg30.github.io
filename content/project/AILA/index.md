@@ -10,12 +10,14 @@ image:
   focal_point: Center
 ---
 
+## 📸 Gallery
+![ ](AILA-2.png)
 
-## 📸 Gallery
+AILA delivers real‑time English conversation through 3‑D avatars that combine Unity graphics with an AI chatbot back‑end.
 
-![ ](AILA-2.png)  
+**Highlights**
+- Full‑body avatar synthesis with lip‑sync and emotion cues  
+- Personalized lesson flow driven by GPT‑based dialogue engine  
+- WebRTC + WebGL deployment for truly contact‑free learning  
 
-Led the development of a 3D avatar-based English conversation learning system.  
-Integrated Unity and chatbot technologies to provide personalized, non-contact language education.
-
-[Read More](https://press.todayan.com/newsRead.php?no=945769)
+[Read More](https://press.todayan.com/newsRead.php?no=945769)

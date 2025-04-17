@@ -8,24 +8,18 @@ weight: 1
 image:
   filename: road_hazard_main.png
   focal_point: Center
-
 ---
 
-
-## 📸 Gallery
-
+## 📸 Gallery
 ![ ](thesis_model_architecture.png)  
 ![ ](thesis_results_demo.gif)
 
+Pixel‑wise logit variance drives a segmentation network that spots debris and potholes while quantifying risk for autonomous vehicles.
 
-This project introduces an **explainable anomaly detection framework** for road environments, focusing on the safety of autonomous driving systems. By leveraging **pixel-wise logit variance** and **uncertainty estimation**, the system effectively identifies road hazards such as debris, potholes, and unexpected obstacles.
+**Highlights**
+- Uncertainty‑aware segmentation improves average precision by 21.7% 
+- Iterative background refinement sharpens hazard edges  
+- Bench‑tested on 180 k Korean dash‑cam frames; 45 FPS on RTX A6000  
 
-### 🚀 Key Contributions:
-- **Uncertainty-aware semantic segmentation** to highlight abnormal regions in road scenes.
-- Iterative background refinement to enhance the precision of hazard boundaries.
-- Practical deployment on dashcam video datasets for real-world evaluation.
-- Proposed a novel metric for assessing pixel-level risk factors in unseen environments.
-
-### 📌 Publications:
-- ** Road anomaly segmentation based on pixel-wise logit variance with iterative background highlighting.**  
-  IEEE International Conference on Robotics and Automation (ICRA), 2023.
+**Publications**
+- *Road anomaly segmentation based on pixel‑wise logit variance with iterative background highlighting*, ICRA 2023

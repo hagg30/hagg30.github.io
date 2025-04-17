@@ -10,16 +10,16 @@ image:
   focal_point: Center
 ---
 
-## 📸 Gallery
-
+## 📸 Gallery
 ![ ](police.png)  
 ![ ](overview.png)
 
+Built an immersive XR drill that converts police manuals into dynamic training scenarios and scores trainee responses in real time.
 
-Collaborated with the Korean National Police Agency to develop an XR environment for virtual counter-terrorism training.  
-This project focused on automatic scenario generation from operational manuals, AI-driven simulation, and real-time trainee evaluation.
+**Highlights**
+- Scene graphs auto‑generated from 300 + SOP pages  
+- Auto-generated agents drive hostile NPC behaviour  
+- Unity + OpenXR; supports VR, AR and CAVE setups  
 
-## 🎥 Training Demo Video
-
-{{< video src="xr-demo.mp4" >}}
-[Read More](https://www.dt.co.kr/contents.html?article_no=2021072802109923645006)
+{{< video src="xr-demo.mp4" >}}  
+[Read More](https://www.dt.co.kr/contents.html?article_no=2021072802109923645006)

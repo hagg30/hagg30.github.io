@@ -10,12 +10,13 @@ image:
   focal_point: Center
 ---
 
-## 📸 Gallery
+## 📸 Gallery
+![ ](KUSTAR_Logo.jpg)
 
-![ ](KUSTAR_Logo.jpg)  
+Investigated GAN‑style reconstruction methods to spot defects in cyber‑physical systems at KU‑CPS.
 
+**Highlights**
+- Trained VAE‑GAN on sensor fusion data (vision + IoT)  
+- Findings fed into safety guidelines for critical plants  
 
-Researched generative model-based anomaly detection methods for critical industrial infrastructure.  
-Focused on enhancing safety and reliability in cyber-physical systems at KU-CPS.
-
-[Read More](https://www.ku.ac.ae/c2ps)
+[Read More](https://www.ku.ac.ae/c2ps)

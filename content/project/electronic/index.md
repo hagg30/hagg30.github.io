@@ -17,7 +17,7 @@ image:
 ![ ](kepco-1.png)  
 
 
-Developed an XAI solution to detect and interpret abnormal events in power system operation images.  
-This work enhanced reliability and safety in South Korea's smart grid infrastructure.
+**Highlights**
+- Developed an XAI solution to detect and interpret abnormal events in power system operation images.  
 
 [Read More](https://www.etnews.com/20210414000101)
