@@ -1,0 +1,18 @@
+{{ if .Site.IsMultiLingual }}
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+    {{ .Site.Language.LanguageName }}
+  </a>
+  <ul class="dropdown-menu dropdown-menu-end">
+    {{ range .Site.Languages }}
+      {{ if ne .Lang $.Site.Language.Lang }}
+        <li>
+          <a class="dropdown-item" hreflang="{{ .Lang }}" href="{{ $.RelPermalink | relLangURL .Lang }}">
+            {{ .LanguageName }}
+          </a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</li>
+{{ end }}
