@@ -17,7 +17,7 @@ AILA delivers real‑time English conversation through 3‑D avatars that combin
 
 **Highlights**
 - Full‑body avatar synthesis with lip‑sync and emotion cues  
-- Personalized lesson flow driven by GPT‑based dialogue engine  
-- WebRTC + WebGL deployment for truly contact‑free learning  
+- Personalized lesson flow driven by an AI dialogue system
+- Integrated Unity-based avatars with the conversational back end
 
 [Read More](https://press.todayan.com/newsRead.php?no=945769)

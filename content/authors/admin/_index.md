@@ -19,12 +19,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: "Ph.D. AI Researcher | XR Simulation | Explainable AI | Anomaly Detection"
+role: "Senior Staff Engineer | LLM Inference Optimization | Model Compression"
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: KAIST
-    url: "https://kaist.ac.kr/"
+  - name: Huawei
+    url: "https://www.huawei.com/"
 
 # Social network links
 profiles:
@@ -41,26 +41,26 @@ profiles:
   #  url: "https://stackoverflow.com/users/3614711/pflower"
 
 interests:
-  - "Explainable AI (XAI)"
-  - "XR Simulation"
-  - "Generative AI for Content Creation"
-  - "Multimodal Learning"
-  - "Anomaly Detection in Critical Systems"
+  - "LLM Inference Optimization"
+  - "Model Compression"
+  - "Quantization and Pruning"
+  - "Knowledge Distillation and Sparsity"
+  - "Reliable and Efficient AI Systems"
 
 education:
   - area: "Ph.D. in Computer Science"
     institution: "KAIST"
-    date_start: 2019-03-01
+    date_start: 2018-09-01
     date_end: 2025-02-28
     summary: |
       GPA: 3.82  
       Focused on Explainable AI for real-world applications such as smart energy systems, education, and safety.  
       Worked on anomaly detection, risk assessment, and XR simulation projects.
 
-  - area: "M.S. in Computer Science"
+  - area: "M.Eng. in Artificial Intelligence"
     institution: "KAIST"
     date_start: 2016-03-01
-    date_end: 2019-02-28
+    date_end: 2018-08-31
     summary: |
       GPA: 3.85  
       Developed Korean language understanding models and semantic similarity techniques through deep learning.
@@ -74,6 +74,14 @@ education:
       Focused on computer graphics and game development with a graduation project involving interactive game design and optimization.
 
 work:
+  - position: "Senior Staff Engineer"
+    company_name: "Huawei"
+    company_url: "https://www.huawei.com/"
+    date_start: 2025-10-01
+    summary: |
+      - Develop algorithms for LLM inference optimization and model efficiency across quantization, pruning, knowledge distillation, sparsity, and decoding.
+      - Bridge research, evaluation, and deployment with attention to model quality, memory, latency, and throughput.
+
   - position: "Project Lead (Student)"
     company_name: "AILA (AI Language Assistant)"
     company_url: "https://press.todayan.com/newsRead.php?no=945769"
@@ -108,31 +116,20 @@ work:
       - Contributed to an embedded system application for location-based services.
 
 skills:
-  - name: "Programming Languages"
+  - name: "AI Systems & Model Efficiency"
     items:
-      - name: "Python"
-        percent: 98
-      - name: "Unity (C#)"
-        percent: 95
-      - name: "C/C++"
-        percent: 95
-      - name: "Java"
-        percent: 90
-      - name: "MATLAB"
-        percent: 80
-      - name: "Lua"
-        percent: 70
+      - name: "LLM Inference Optimization"
+      - name: "Quantization"
+      - name: "Pruning & Sparsity"
+      - name: "Knowledge Distillation"
+      - name: "Decoding Algorithms"
 
-  - name: "Frameworks/Tools"
+  - name: "Engineering"
     items:
-      - name: "PyTorch / TensorFlow / OpenCV"
-        percent: 90
-      - name: "Unity / Unreal Engine"
-        percent: 85
+      - name: "Python / PyTorch"
+      - name: "C / C++"
+      - name: "TensorFlow / OpenCV"
       - name: "Git / Docker"
-        percent: 85
-      - name: "Photoshop"
-        percent: 60
 
 languages:
   - name: "Korean"
@@ -145,9 +142,11 @@ languages:
 awards: []
 
 bio: |
-  I am an AI researcher with a Ph.D. in Computer Science at KAIST, specializing in **Generative AI for XR simulations** and **anomaly detection** in safety-critical systems.  
-  My work focuses on **Explainable AI (XAI)** to enhance transparency and reliability across smart infrastructure, security, and education.  
-  By building multimodal learning approaches and advanced simulation environments, I aim to improve operational safety, immersive training, and scalable content creation.
+  I am a Senior Staff Engineer working on **efficient AI systems**, with a focus on **LLM inference optimization** and **model compression**.
+
+  My work spans quantization, pruning, knowledge distillation, sparsity, and decoding algorithms, with an emphasis on reducing deployment cost while preserving model quality.
+
+  I hold a Ph.D. in Computer Science from KAIST, with a research background in out-of-distribution detection, anomaly segmentation, uncertainty estimation, generative modeling, and computer vision.
 
 patents:
   registered:

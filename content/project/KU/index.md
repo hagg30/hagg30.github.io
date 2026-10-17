@@ -13,10 +13,10 @@ image:
 ## 📸 Gallery
 ![ ](KUSTAR_Logo.jpg)
 
-Investigated GAN‑style reconstruction methods to spot defects in cyber‑physical systems at KU‑CPS.
+Investigated generative reconstruction methods for explainable anomaly detection in industrial images.
 
 **Highlights**
-- Trained VAE‑GAN on sensor fusion data (vision + IoT)  
-- Findings fed into safety guidelines for critical plants  
+- Studied reconstruction-based detection of visual defects
+- Focused on transparent methods for safety-critical applications
 
 [Read More](https://www.ku.ac.ae/c2ps)

@@ -6,7 +6,7 @@
 # Website name
 title: Dongkun Lee
 # Website URL
-baseURL: 'https://dongkunlee.me/'
+baseURL: 'https://hagg30.github.io/'
 
 
 ############################
@@ -26,9 +26,8 @@ build:
   writeStats: true
 enableGitInfo: false
 summaryLength: 30
-paginate: 6
-#pagination:
-#  pagerSize: 10
+pagination:
+  pagerSize: 6
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>

@@ -17,7 +17,7 @@ image:
 Built an immersive XR drill that converts police manuals into dynamic training scenarios and scores trainee responses in real time.
 
 **Highlights**
-- Scene graphs auto‑generated from 300 + SOP pages  
+- Scene graphs generated from procedural training material
 - Auto-generated agents drive hostile NPC behaviour  
 - Unity + OpenXR; supports VR, AR and CAVE setups  
 

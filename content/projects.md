@@ -11,13 +11,13 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: 
+      title: Selected Research Projects
+      text: Public work from doctoral research and earlier collaborations, spanning reliable computer vision, anomaly detection, AI-assisted simulation, and interactive learning systems.
       filters:
         folders:
           - project
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 2
 ---
