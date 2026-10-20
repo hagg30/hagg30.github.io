@@ -10,7 +10,7 @@ first_name: "Dongkun"
 last_name: "Lee"
 
 avatar:
-  filename: "avatar.jpg"
+  filename: "avatar.png"
 
 # Is this the primary user of the site?
 superuser: true

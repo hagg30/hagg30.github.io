@@ -59,7 +59,7 @@ img, video { max-width: 100%; height: auto; }
 .portfolio-button { display: inline-flex; align-items: center; justify-content: center; gap: 1.1rem; min-height: 44px; padding: .7rem 1.05rem; background: var(--color-primary); border: 1px solid var(--color-primary); border-radius: 5px; font-size: .82rem; font-weight: 600; line-height: 1.4; color: #fff; transition: background .15s ease; }
 .portfolio-shell .portfolio-button:hover { color: #fff; background: var(--color-primary-hover); text-decoration: none; }
 .portfolio-shell .profile-link { display: inline-flex; align-items: center; gap: .25rem; min-height: 44px; font-size: .8rem; font-weight: 550; color: var(--color-text-muted); }
-.intro-portrait img { width: 208px; height: 208px; object-fit: cover; border-radius: 12px; filter: saturate(.65); background: var(--color-bg-alt); }
+.intro-portrait img { width: 208px; height: 208px; object-fit: cover; border-radius: 12px; background: var(--color-bg-alt); }
 .intro-portrait figcaption { margin-top: .9rem; color: var(--color-text); font-size: .75rem; line-height: 1.6; }
 .intro-portrait figcaption span { color: var(--color-text-muted); }
 

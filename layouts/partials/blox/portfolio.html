@@ -1,5 +1,7 @@
 {{ $author := site.GetPage "/authors/admin" }}
 {{ $current := index $author.Params.work 0 }}
+{{ $avatar := $author.Resources.GetMatch "avatar.*" }}
+{{ $portrait := $avatar.Fit "416x416 webp" }}
 <div class="portfolio-shell">
   <header class="intro" aria-labelledby="intro-name">
     <div class="intro-copy">
@@ -15,7 +17,7 @@
       </div>
     </div>
     <figure class="intro-portrait">
-      <img src="{{ "uploads/avatar.jpg" | relURL }}" alt="Dongkun Lee" width="208" height="208" fetchpriority="high">
+      <img src="{{ $portrait.RelPermalink }}" alt="Dongkun Lee" width="208" height="208" fetchpriority="high">
       <figcaption>Ph.D. in Computer Science<br><span>KAIST</span></figcaption>
     </figure>
   </header>
