@@ -8,8 +8,8 @@ custom_css:
 
 # Appearance
 appearance:
-  mode: system
-  color: emerald
+  mode: light
+  color: red
 
 # SEO
 marketing:

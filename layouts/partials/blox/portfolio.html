@@ -1,0 +1,69 @@
+{{ $author := site.GetPage "/authors/admin" }}
+{{ $current := index $author.Params.work 0 }}
+<div class="portfolio-shell">
+  <header class="intro" aria-labelledby="intro-name">
+    <div class="intro-copy">
+      <p class="eyebrow"><span aria-hidden="true"></span>{{ $current.position }}</p>
+      <h1 id="intro-name">{{ $author.Title }}<span class="name-dot">.</span></h1>
+      <p class="intro-specialty">AI systems. LLM inference. Model compression.</p>
+      <p class="intro-description">I develop algorithms that make AI models more efficient, connecting research with practical deployment.</p>
+      <div class="portfolio-links" aria-label="Contact and profiles">
+        <a class="portfolio-button" href="mailto:babba82200@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+        <a class="profile-link" href="https://www.linkedin.com/in/dongkunlee777" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a class="profile-link" href="https://scholar.google.com/citations?user=8pplxsoAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar <span aria-hidden="true">↗</span></a>
+        <a class="profile-link" href="https://github.com/hagg30" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <figure class="intro-portrait">
+      <img src="{{ "uploads/avatar.jpg" | relURL }}" alt="Dongkun Lee" width="208" height="208" fetchpriority="high">
+      <figcaption>Ph.D. in Computer Science<br><span>KAIST</span></figcaption>
+    </figure>
+  </header>
+
+  <section class="work-section" id="selected-work" aria-labelledby="work-title">
+    <div class="section-heading">
+      <div><p class="section-kicker">01 / Selected work</p><h2 id="work-title">Research &amp; projects</h2></div>
+      <a class="quiet-link" href="{{ "publication/" | relURL }}">All publications <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="work-list">
+      {{ range $item := slice
+        (dict "page" "/publication/lee-2023-road" "category" "ICRA 2023 · Paper" "summary" "Using pixel-level uncertainty to identify unexpected hazards in road scenes.")
+        (dict "page" "/publication/sim-2023-debiasing" "category" "ECAI 2023 · Paper" "summary" "Reducing bias to improve the detection of unfamiliar actions in video.")
+        (dict "page" "/project/AILA" "category" "AI application · Project" "summary" "A conversational learning platform connecting AI dialogue with interactive 3D avatars.")
+      }}
+        {{ with site.GetPage $item.page }}
+        <article class="work-item">
+          <div class="work-category">{{ $item.category }}</div>
+          <div class="work-copy"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ $item.summary }}</p></div>
+          <span class="work-arrow" aria-hidden="true">↗</span>
+        </article>
+        {{ end }}
+      {{ end }}
+    </div>
+    <a class="quiet-link projects-link" href="{{ "projects/" | relURL }}">Explore research projects <span aria-hidden="true">→</span></a>
+  </section>
+
+  <section class="about-section" id="background" aria-labelledby="about-title">
+    <div class="section-heading"><div><p class="section-kicker">02 / Background</p><h2 id="about-title">From research to deployment</h2></div></div>
+    <div class="background-grid">
+      <div class="current-role">
+        <p class="detail-label">Current role</p>
+        <h3>{{ $current.position }}</h3>
+        <p class="role-company">{{ $current.company_name }} <span>· {{ time.Format "2006" $current.date_start }}–present</span></p>
+        <p>I work on LLM inference optimization and model efficiency, balancing model quality, memory, latency, and throughput.</p>
+        <a class="quiet-link" href="{{ "experience/" | relURL }}">Full experience &amp; education <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="research-background">
+        <p class="detail-label">Research foundation</p>
+        <h3>Ph.D., KAIST</h3>
+        <p>My research spans out-of-distribution detection, anomaly segmentation, uncertainty estimation, and computer vision, with publications at ICRA and ECAI.</p>
+      </div>
+    </div>
+    <div class="expertise"><span class="detail-label">Technical focus</span><ul aria-label="Technical focus"><li>LLM inference</li><li>Quantization</li><li>Pruning &amp; sparsity</li><li>Distillation</li><li>Python / PyTorch</li></ul></div>
+  </section>
+
+  <section class="connect-section" aria-labelledby="connect-title">
+    <div><p class="section-kicker">03 / Contact</p><h2 id="connect-title">Let’s exchange ideas.</h2><p>Research exchange and open-source collaboration in efficient AI.</p></div>
+    <a class="portfolio-button" href="mailto:babba82200@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+  </section>
+</div>
